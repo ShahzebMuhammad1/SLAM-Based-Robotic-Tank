@@ -21,3 +21,17 @@ Project Title
  - Detect and avoid obstacles autonomously.
  - Capture environmental data via the camera.
  - Navigate to specific targets while continuously updating its map. 
+##  Tools/Technologies (Tentative Listing)
+ ### Hardware:
+ - Raspberry Pi (processing unit)
+ - LIDAR(RPLIDARA1M8)formapping
+ - Ultrasonic Sensors for obstacle detection
+ - IMU(BNO055)formotion tracking
+  - Raspberry Pi Night Vision Camera for visual data
+ - TB6612FNGMotorDriver Module for controlling movement
+ - SmartCarTankWheelKit for mobility
+ ### Software:
+ - Robot Operating System (ROS) for system integration
+ - SLAM algorithms like GMapping or Cartographer for mapping
+ - Python/C++for programming
+ - PathPlanning Algorithms (e.g., A* for navigation)
